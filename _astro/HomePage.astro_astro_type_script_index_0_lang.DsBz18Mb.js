@@ -1,0 +1,1 @@
+import{c as e}from"./measure.DtP-fu9p.js";e(`home`);var t=document.querySelector(`[data-ask-block]`),n=document.querySelector(`[data-ask-top]`);t&&n&&`IntersectionObserver`in window&&new IntersectionObserver(([e])=>{n.hidden=e.isIntersecting||e.boundingClientRect.top>0}).observe(t);
